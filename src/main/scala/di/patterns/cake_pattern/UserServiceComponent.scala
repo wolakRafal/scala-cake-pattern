@@ -1,4 +1,4 @@
-package cake.pattern
+package di.patterns.cake_pattern
 
 case class User(name: String, password: String)
 

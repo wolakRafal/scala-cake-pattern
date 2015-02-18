@@ -1,4 +1,4 @@
-package cake.pattern
+package di.patterns.cake_pattern
 
 import org.specs2.mutable._
 
