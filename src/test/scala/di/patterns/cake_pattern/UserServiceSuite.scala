@@ -1,5 +1,6 @@
 package di.patterns.cake_pattern
 
+import di.patterns.cake_pattern.anotherexample.User
 import org.specs2.mutable._
 
 class UserServiceSuite extends Specification with TestEnvironment {

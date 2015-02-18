@@ -1,4 +1,4 @@
-package di.patterns.cake_pattern
+package di.patterns.cake_pattern.anotherexample
 
 // using self-type annotation declaring the dependencies this
 // component requires, in our case the UserRepositoryComponent

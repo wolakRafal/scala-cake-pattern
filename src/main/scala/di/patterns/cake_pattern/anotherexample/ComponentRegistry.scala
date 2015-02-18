@@ -1,4 +1,4 @@
-package di.patterns.cake_pattern
+package di.patterns.cake_pattern.anotherexample
 
 object ComponentRegistry
   extends UserServiceComponent
