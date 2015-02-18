@@ -4,7 +4,7 @@ case class User(name: String, password: String)
 
 trait UserServiceComponent { this: UserRepositoryComponent =>
 
-  val userService = ComponentRegistry.userService
+  val userService: UserService
 
   class UserService {
     def authenticate(username: String, password: String): User =

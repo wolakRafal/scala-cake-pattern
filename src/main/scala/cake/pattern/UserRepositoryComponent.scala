@@ -4,7 +4,7 @@ package cake.pattern
 // component requires, in our case the UserRepositoryComponent
 trait UserRepositoryComponent {
 
-  val userRepository = ComponentRegistry.userRepository //new UserRepository
+  val userRepository: UserRepository
 
     class UserRepository {
       def authenticate(user: User): User = {
